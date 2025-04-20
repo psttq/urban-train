@@ -22,9 +22,16 @@ class Cat(Animal):
     def __init__(self):
         super().__init__("Cat")
 
-    def voice(self):
+    def say(self):
         print("Meow!")
+        
+class Pig(Animal):
+    def __init__(self):
+        super().__init__("Pig")
 
+    def say(self):
+        print("Hru!")
+        
 class Cow(Animal):
     def __init__(self):
         super().__init__("Cow")
@@ -33,6 +40,6 @@ class Cow(Animal):
         print("Moo!")
 
 if __name__ == "__main__":
-    cow = Cow()
-    cow.say()
-    cow.eat()
+    pig = Pig()
+    pig.say()
+    pig.eat()
