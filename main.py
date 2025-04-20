@@ -15,6 +15,13 @@ class Dog(Animal):
     def voice(self):
         print("Woof!")
 
+class Cat(Animal):
+    def __init__(self):
+        super().__init__("Cat")
+
+    def voice(self):
+        print("Meow!")
+
 if __name__ == "__main__":
-    dog = Dog()
-    dog.voice()
+    cat = Cat()
+    cat.voice()
