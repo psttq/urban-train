@@ -29,7 +29,7 @@ class Cow(Animal):
     def __init__(self):
         super().__init__("Cow")
 
-    def voice(self):
+    def say(self):
         print("Moo!")
 
 if __name__ == "__main__":
