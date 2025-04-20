@@ -39,6 +39,13 @@ class Cow(Animal):
     def say(self):
         print("Moo!")
 
+class Chicken(Animal):
+    def __init__(self):
+        super().__init__("Chicken")
+
+    def say(self):
+        print("Kukareku!")
+
 if __name__ == "__main__":
     pig = Pig()
     pig.say()
