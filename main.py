@@ -13,7 +13,7 @@ class Dog(Animal):
         super().__init__("Dog")
 
     def voice(self):
-        print("Wow")
+        print("Woof!")
 
 if __name__ == "__main__":
     dog = Dog()
