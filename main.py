@@ -8,6 +8,9 @@ class Animal(ABC):
     def say():
         pass
 
+    def eat(self):
+        print(f"{self.name} eating food.")
+
 class Dog(Animal):
     def __init__(self):
         super().__init__("Dog")
@@ -23,5 +26,6 @@ class Cat(Animal):
         print("Meow!")
 
 if __name__ == "__main__":
-    cat = Cat()
-    cat.voice()
+    dog = Dog()
+    dog.say()
+    dog.eat()
