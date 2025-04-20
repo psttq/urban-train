@@ -24,13 +24,20 @@ class Cat(Animal):
 
     def say(self):
         print("Meow!")
-
+        
 class Pig(Animal):
     def __init__(self):
         super().__init__("Pig")
 
     def say(self):
         print("Hru!")
+        
+class Cow(Animal):
+    def __init__(self):
+        super().__init__("Cow")
+
+    def say(self):
+        print("Moo!")
 
 if __name__ == "__main__":
     pig = Pig()
