@@ -5,16 +5,16 @@ class Animal(ABC):
         self.name = name
     
     @abstractmethod
-    def sai():
+    def say():
         pass
 
 class Dog(Animal):
     def __init__(self):
         super().__init__("Dog")
 
-    def sai(self):
+    def say(self):
         print("Woof!")
 
 if __name__ == "__main__":
     dog = Dog()
-    dog.sai()
+    dog.say()
