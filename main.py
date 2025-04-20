@@ -23,5 +23,5 @@ class Cat(Animal):
         print("Meow!")
 
 if __name__ == "__main__":
-    dog = Dog()
-    dog.voice()
+    cat = Cat()
+    cat.voice()
