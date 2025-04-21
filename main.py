@@ -55,6 +55,6 @@ class Fox(Animal):
         print("oooo!")
 
 if __name__ == "__main__":
-    pig = Pig()
-    pig.say()
-    pig.eat()
+    fox = Pig()
+    fox.say()
+    fox.eat()
